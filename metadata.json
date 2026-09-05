@@ -1,8 +1,8 @@
 {
 	"name": "Video Thumbnail",
 	"author": "kadafi916",
-	"description": "Adds a thumbnail when none was found: first tries a <video poster> in the entry's own content (e.g. 9GAG's video posts), then falls back to fetching the entry's og:image (e.g. Bluesky's RSS output, which has no image data at all).",
-	"version": "1.1",
+	"description": "Adds a thumbnail when none was found: tries a <video poster> in the entry's own content (e.g. 9GAG's video posts), then the first real <img> in the content past a small noise denylist (e.g. FitGirl Repacks posts where a Steam trailer enclosure crowds out the cover art), then falls back to fetching the entry's og:image (e.g. Bluesky's RSS output, which has no image data at all).",
+	"version": "1.2",
 	"entrypoint": "VideoThumbnail",
 	"type": "user"
 }
